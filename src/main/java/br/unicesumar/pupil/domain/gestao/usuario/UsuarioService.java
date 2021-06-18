@@ -23,6 +23,16 @@ public class UsuarioService {
     public Usuario obterPeloId(String id) {
         return repository.findById(id).orElseThrow(() -> new ValidationException("Usuario Não Encontrado!"));
     }
+    
+    public Usuario obterPeloCpf(String cpf) {
+       Usuario usuario = repository.findBycpf(cpf);
+       
+       if(usuario.getId() == null || usuario.getId().equals("")) {
+           new ValidationException("Usuario Não Encontrado!");
+       }
+       
+       return usuario;
+    }
 
     public void excluirPeloId(String id) {
         repository.deleteById(id);

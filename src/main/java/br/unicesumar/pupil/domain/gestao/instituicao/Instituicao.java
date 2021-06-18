@@ -18,7 +18,9 @@ public class Instituicao {
     @Id
     private String id = UUID.randomUUID().toString();
     
-    private String nomeComercial;
+    private String razaoSocial;
+    
+    private String nomeFantasia;
     
     private String cnpj;
     

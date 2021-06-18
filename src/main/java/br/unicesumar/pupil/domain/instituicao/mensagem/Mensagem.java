@@ -1,11 +1,7 @@
 package br.unicesumar.pupil.domain.instituicao.mensagem;
 
-import br.unicesumar.pupil.domain.gestao.instituicao.Instituicao;
-import br.unicesumar.pupil.domain.instituicao.aluno.Aluno;
-
-import java.time.LocalDateTime;
+import br.unicesumar.pupil.domain.instituicao.usuario.Usuario;
 import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -13,7 +9,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import com.fasterxml.jackson.annotation.JsonFormat;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -27,9 +22,9 @@ public class Mensagem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     
-    private Aluno professor;
+    private Usuario professor;
 
-    private Integer responsavelId;
+    private Usuario responsavel;
     
     @JsonFormat(pattern = "dd/MM/yyyy HH:mm", timezone = "America/Sao_Paulo")
     private Date dataHora;
@@ -43,17 +38,15 @@ public class Mensagem {
 
     private boolean lidoResponsavel;
 
-    public Mensagem(Aluno professor, Integer responsavelId, Date dataHora, MensagemOrigem origem, String texto,
-            boolean lidoProfessor, boolean lidoResponsavel) {
+    public Mensagem(Usuario professor, Usuario responsavel, MensagemOrigem origem, String texto) {
         super();
         this.professor = professor;
-        this.responsavelId = responsavelId;
-        this.dataHora = dataHora;
+        this.responsavel = responsavel;
         this.origem = origem;
         this.texto = texto;
-        this.lidoProfessor = lidoProfessor;
-        this.lidoResponsavel = lidoResponsavel;
     }
+
+    
     
     
 }

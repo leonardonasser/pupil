@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="br.unicesumar.pupil.domain.instituicao.advertencia.AdvertenciaResource" 
+    project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/advertencia/AdvertenciaResource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="221" x="337" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="br.unicesumar.pupil.domain.instituicao.aluno.AlunoResource" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/aluno/AlunoResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="194" x="598" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="br.unicesumar.pupil.domain.instituicao.boletim.Boletim" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/boletim/Boletim.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="315" width="202" x="2162" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="br.unicesumar.pupil.domain.instituicao.boletim.BoletimService" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/boletim/BoletimService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="202" x="2760" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="br.unicesumar.pupil.domain.instituicao.advertencia.AdvertenciaRepository" 
+    project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/advertencia/AdvertenciaRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="221" x="337" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="br.unicesumar.pupil.domain.instituicao.frequencia.Frequencia" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/frequencia/Frequencia.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="222" x="1612" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="br.unicesumar.pupil.domain.instituicao.aluno.AlunoRepository" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/aluno/AlunoRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="199" x="598" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="br.unicesumar.pupil.domain.instituicao.atividade.AtividadeResource" 
+    project="pupil" file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/atividade/AtividadeResource.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="210" x="864" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="br.unicesumar.pupil.domain.instituicao.nota.NotaService" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/nota/NotaService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="190" x="3002" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="br.unicesumar.pupil.domain.instituicao.frequencia.FrequenciaService" 
+    project="pupil" file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/frequencia/FrequenciaService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="216" x="1356" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="br.unicesumar.pupil.domain.instituicao.usuario.UsuarioResource" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/usuario/UsuarioResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="202" x="1114" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="br.unicesumar.pupil.domain.instituicao.advertencia.AdvertenciaService" 
+    project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/advertencia/AdvertenciaService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="221" x="337" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="br.unicesumar.pupil.domain.instituicao.nota.NotaRepository" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/nota/NotaRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="63" width="190" x="3002" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="14" language="java" name="br.unicesumar.pupil.domain.instituicao.usuario.TipoUsuario" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/usuario/TipoUsuario.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="202" x="2135" y="2471"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="15" language="java" name="br.unicesumar.pupil.domain.instituicao.aluno.Aluno" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/aluno/Aluno.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="194" x="2135" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="16" language="java" name="br.unicesumar.pupil.domain.instituicao.usuario.UsuarioRepository" 
+    project="pupil" file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/usuario/UsuarioRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="208" x="1114" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="17" language="java" name="br.unicesumar.pupil.domain.instituicao.frequencia.FrequenciaRepository" 
+    project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/frequencia/FrequenciaRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="216" x="1362" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="br.unicesumar.pupil.domain.instituicao.frequencia.FrequenciaResource" 
+    project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/frequencia/FrequenciaResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="216" x="1356" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="br.unicesumar.pupil.domain.instituicao.boletim.BoletimRepository" 
+    project="pupil" file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/boletim/BoletimRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="63" width="202" x="2760" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="br.unicesumar.pupil.domain.instituicao.usuario.UsuarioService" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/usuario/UsuarioService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="202" x="1114" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="br.unicesumar.pupil.domain.instituicao.boletim.BoletimResource" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/boletim/BoletimResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="202" x="2760" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="22" language="java" name="br.unicesumar.pupil.domain.instituicao.atividade.AtividadeRepository" 
+    project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/atividade/AtividadeRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="216" x="858" y="1437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="23" language="java" name="br.unicesumar.pupil.domain.instituicao.nota.Nota" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/nota/Nota.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="197" x="2523" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="br.unicesumar.pupil.domain.instituicao.advertencia.Advertencia" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/advertencia/Advertencia.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="459" width="248" x="1874" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="br.unicesumar.pupil.domain.instituicao.usuario.Usuario" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/usuario/Usuario.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="585" width="314" x="2135" y="1846"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="br.unicesumar.pupil.domain.instituicao.atividade.Atividade" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/atividade/Atividade.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="567" width="295" x="2404" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="br.unicesumar.pupil.domain.instituicao.atividade.AtividadeService" 
+    project="pupil" file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/atividade/AtividadeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="210" x="864" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="br.unicesumar.pupil.domain.instituicao.aluno.AlunoService" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/aluno/AlunoService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="226" x="598" y="830"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="br.unicesumar.pupil.domain.instituicao.nota.NotaResource" project="pupil" 
+    file="/pupil/src/main/java/br/unicesumar/pupil/domain/instituicao/nota/NotaResource.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="190" x="3002" y="385"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="30">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="31" name="aluno"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="34" name="repository"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="37" name="repository"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="40" name="repository"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="43" name="service"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <bendpoint x="1882" y="1437"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="46" name="professor"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="49" name="repository"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <bendpoint x="2729" y="830"/>    
+    <bendpoint x="2729" y="1437"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="52" name="professor"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="55" name="repository"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="58" name="aluno"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="61" name="responsavel"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="63">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="64" name="service"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="67" name="tipoUsuario"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="69">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="70" name="repository"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="73" name="aluno"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="76" name="service"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="79" name="service"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <bendpoint x="2013" y="1437"/>    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="82" name="professor"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <bendpoint x="2359" y="1437"/>    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="85" name="professor"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="87">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="88" name="service"/>      
+      <multiplicity id="89" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="90">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="91" name="boletim"/>      
+      <multiplicity id="92" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="93">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="94" name="service"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="97" name="aluno"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="100" name="service"/>      
+      <multiplicity id="101" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="103" name="repository"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

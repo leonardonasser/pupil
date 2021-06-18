@@ -22,6 +22,10 @@ public class Usuario {
     private String id = UUID.randomUUID().toString();
 
     private String nome;
+    
+    private String cpf;
+    
+    private String senha;
 
     private String email;
 
